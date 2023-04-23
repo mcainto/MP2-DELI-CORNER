@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="about.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="heading">
+    <h1>About Us</h1>
+    <p>Welcome to Deli Corner!</p>
+
+  </div>
+  <div class="container">
+    <section class="about">
+      <div class="about-image">
+        <img src="assets/images/familymeal.jpg" alt="familymeal photo">
+      </div>
+      <div class="about-content">
+        <h2>Family Bonding Brought to your Doorstep</h2>
+        <p>We are a new and innovative food ordering company, established in April 2023, with the aim of bringing together the best local restaurants in one convenient platform for our customers to order from. Our goal is to make food ordering easy, fast, and fun, while also supporting local businesses.</p>
+        <br>
+        <p>Our team is passionate about food, and we believe that everyone should have access to the best local cuisine without having to leave their homes. That's why we've partnered with the most popular and highly rated restaurants in your area, to provide you with a variety of options that cater to all tastes and preferences.</p>
+        <br>
+        <p>At Deli Corner, we understand that customers want more than just great food. That's why we've also made sure to provide a seamless and hassle-free ordering experience, so you can spend less time worrying about logistics and more time enjoying your meal. Our easy-to-use website allows you to browse menus, place orders, and track your delivery, all in one place.</p>
+        <br>
+        <span id="dots">...</span>
+        <span id="more">
+        <!-- <a href="" class="read-more">Read More</a> -->
+        <p>We're committed to providing exceptional customer service, and we're always here to help if you have any questions or concerns. Our team of friendly and knowledgeable support staff is available to assist you every step of the way, from placing your order to receiving it at your doorstep.</p>
+        <br>
+        <p>We're proud to support local businesses, and we believe that our platform provides a much-needed boost to the community. By partnering with Deli Corner, restaurants can reach more customers and grow their businesses, while our customers can enjoy the best local cuisine without having to leave their homes.</p>
+        <br>
+        Thank you for choosing Deli Corner, and we look forward to serving you!</span></p>
+        <button onclick="myFunction()" id="myBtn">Read More</button>
+      </div>
+
+
+    </section>
+
+  </div>
+
+  <script>
+    function myFunction(){
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+      if (dots.style.display === "none"){
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+      } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+    }
+    </script>
+</body>
+</html>
