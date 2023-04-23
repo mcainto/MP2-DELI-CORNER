@@ -1,0 +1,31 @@
+html {
+    margin: 50px;
+    background-color: #b32d00;
+    margin-left: 50px;
+}
+.sidenav {
+font-weight: bolder;
+font-size: 25px;
+}
+ h2 {
+    text-align: center;
+ }
+
+.btn-warning {
+    font-size: 25px;
+}
+center {
+    background-color: #ff9900;
+}
+.container {
+    background-color: #ff9900;
+}
+
+.col-md-2{
+    background-color: #b32d00;
+}
+.intro {
+    background-color: #ffcc00;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
