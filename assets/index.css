@@ -672,13 +672,13 @@ form.search button:hover
     }
 .brands .item img
     {
-        opacity: .50;
-        transition: opacity .3s;
+        opacity: 1;
         border-radius: 5px;
     }
 .brands .item a:hover img
     {
-        opacity: 1;
+        opacity: .50;
+        transition: opacity .3s;
     }
     
     /* ACCOUNTS */
