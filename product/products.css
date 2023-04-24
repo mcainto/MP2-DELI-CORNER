@@ -989,6 +989,9 @@ form.search button:hover
  .container_footer{
      width: 100%;
      margin: auto;
+     padding-top: 20px;
+     padding-left: 120px;
+     padding-right: 0;
    }
    .row{
      display: flex;
@@ -1066,6 +1069,20 @@ form.search button:hover
     /* -------------------------------------------------------------------------------------------------------- */
     /* RESPONSIVENESS */
     
+  /* FOOTER */
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      padding: 0 15px;
+      margin-bottom: 30px;
+    }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+    }
+  }
+
     @media screen and (min-width: 992px)
     {
         .container
