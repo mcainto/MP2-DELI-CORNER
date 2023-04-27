@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a8b9b130c.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- fontawesome-icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Owl Carousel min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 2.Owl Carousel Theme.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/cuisine/cuisine.css">
+    <title>Deli Corner</title>
+</head>
+<body>
+    <div id="page" class="site page-home">
+
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo"><a href="index.html"><span class="circle"></span>Deli Corner</a></div>
+                    <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <div class="thetop-nav"></div>
+            </div>
+        </aside>
+        <!-- NAV BAR -->
+        <header>
+            <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="featured_product.html">Featured Product</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">PHP<span class="icon-small"></span></a>
+                                </li>
+                                <li><a href="#">Filipino<span class="icon-small"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header-top -->
+            <div class="header-nav">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <a href="#" class="trigger desktop-hide"><span><i class="ri-menu-2-line"></i></span></a>
+                        <div class="left flexitem">
+                            <div class="logo"><a href="index.html"><span class="circle"></span>Deli Corner</a></div>
+                            <nav class="mobile-hide">
+                                <ul class="flexitem second-links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="has-child">
+                                        <a href="./product/products.html">Products
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega">
+                                            <div class="container">
+                                                <div class="wrapper">
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4><a href="filipino_Cuisine.html">Filipino Cuisine</a></h4>
+                                                            <ul>
+                                                                <li><a href="solo_product_filipino.html">Fried Chicken</a></li>
+                                                                <li><a href="#">Beef Kare-Kare</a></li>
+                                                                <li><a href="#">Chicken Pancit Canton</a></li>
+                                                                <li><a href="#">Sizzling Tofu</a></li>
+                                                                <li><a href="#">Crispy Pata</a></li>
+                                                                <li><a href="#">Sinigang na Bangus</a></li>
+                                                                <li><a href="#">Fresh Lumpiang Ubod</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4><a href="indian_Cuisine.html">Indian Cuisine</a></h4>
+                                                            <ul>
+                                                                <li><a href="solo_product_indian.html">Chicken Malai Tikka</a></li>
+                                                                <li><a href="#">Paneer Tikka</a></li>
+                                                                <li><a href="#">Aloo Jeera</a></li>
+                                                                <li><a href="#">Palak Paneer</a></li>
+                                                                <li><a href="#">Tandoori Broccoli</a></li>
+                                                                <li><a href="#">Mutton Biryani</a></li>
+                                                                <li><a href="#">Mutton Galouti</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4><a href="Italian_Cuisine.html">Italian Cuisine</a></h4>
+                                                            <ul>
+                                                                <li><a href="solo_product_italian.html">Spaghetti Acciugata</a></li>
+                                                                <li><a href="#">Spaghetti Pomodoro</a></li>
+                                                                <li><a href="#">Spaghetti Aglio Olio</a></li>
+                                                                <li><a href="#">Penne Quattro Formaggi</a></li>
+                                                                <li><a href="#">Quattro Formaggi</a></li>
+                                                                <li><a href="#">Quattro Stagioni</a></li>
+                                                                <li><a href="#">Pizza Tonno</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4><a href="mexican_cuisine.html">Mexican Cuisine</a></h4>
+                                                            <ul class="women-brands">
+                                                                <li><a href="solo_product_mexican.html">Sopa de Tortilla</a></li>
+                                                                <li><a href="#">Chipotle Buffalo Wings</a></li>
+                                                                <li><a href="#">Beef Taquitos</a></li>
+                                                                <li><a href="#">Chicharron con Salsa</a></li>
+                                                                <li><a href="#">Mexican Pork Sisig</a></li>
+                                                                <li><a href="#">Fajitas</a></li>
+                                                                <li><a href="#">Agave Taco Salad</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol products">
+                                                        <div class="row">
+                                                            <div class="media">
+                                                                <div class="thumbnail object-cover">
+                                                                    <a href="./product/products.html">
+                                                                        <img src="assets/images/brand/must_try.jpg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-content">
+                                                                <h4>Most wanted!</h4>
+                                                                <a href="./product/products.html" class="primary-button">Order Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li>
+                                        <a href="contact.html">Contacts
+                                            
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li class="mobile-hide"><a href="#">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Nav -->
+            <div class="header-main mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <div class="dpt-cat">
+                                <div class="dpt-head">
+                                    <div class="main-text">Menu</div>
+                                    <a href="#" class="dpt-trigger mobile-hide">
+                                    </a>
+                                </div>
+                                <div class="dpt-menu">
+                                    <ul class="second-links">
+                                        <li class="has-child beauty">
+                                            <a href="filipino_Cuisine.html">
+                                                Filipino Cuisine
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="solo_product_filipino.html">Fried Chicken</a></li>
+                                                <li><a href="#">Beef Kare-Kare</a></li>
+                                                <li><a href="#">Chicken Pancit Canton</a></li>
+                                                <li><a href="#">Sizzling Tofu</a></li>
+                                                <li><a href="#">Crispy Pata</a></li>
+                                                <li><a href="#">Sinigang na Bangus</a></li>
+                                                <li><a href="#">Fresh Lumpiang Ubod</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child electronics">
+                                            <a href="indian_Cuisine.html">
+                                                Indian Cuisine
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="solo_product_indian.html">Chicken Malai Tikka</a></li>
+                                                <li><a href="#">Paneer Tikka</a></li>
+                                                <li><a href="#">Aloo Jeera</a></li>
+                                                <li><a href="#">Palak Paneer</a></li>
+                                                <li><a href="#">Tandoori Broccoli</a></li>
+                                                <li><a href="#">Mutton Biryani</a></li>
+                                                <li><a href="#">Mutton Galouti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child fashion">
+                                            <a href="Italian_Cuisine.html">
+                                                Italian Cuisine
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="solo_product_italian.html">Spaghetti Acciugata</a></li>
+                                                <li><a href="#">Spaghetti Pomodoro</a></li>
+                                                <li><a href="#">Spaghetti Aglio Olio</a></li>
+                                                <li><a href="#">Penne Quattro Formaggi</a></li>
+                                                <li><a href="#">Quattro Formaggi</a></li>
+                                                <li><a href="#">Quattro Stagioni</a></li>
+                                                <li><a href="#">Pizza Tonno</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">
+                                                Korean Cuisine
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Japanese Cuisine
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                French Cuisine
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Chinese Cuisine
+                                            </a>
+                                        </li>
+                                        <li class="has-child homekit">
+                                            <a href="mexican_cuisine.html">
+                                                Mexican Cuisine
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <div class="mega">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <ul>
+                                                            <li><a href="solo_product_mexican.html">Sopa de Tortilla</a></li>
+                                                            <li><a href="#">Chipotle Buffalo Wings</a></li>
+                                                            <li><a href="#">Beef Taquitos</a></li>
+                                                            <li><a href="#">Chicharron con Salsa</a></li>
+                                                            <li><a href="#">Mexican Pork Sisig</a></li>
+                                                            <li><a href="#">Fajitas</a></li>
+                                                            <li><a href="#">Agave Taco Salad</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Greek Cuisine
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                American Cuisine
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="best_seller.html">
+                                                Fast Foods
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="search-box">
+                                <form action="" class="search">
+                                    <span class="icon-large"><i class="ri-search-line"></i></span>
+                                    <input type="search" placeholder="Search for Products">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Main -->
+        </header>
+        <div class="slider">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="myslider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="assets/cuisine/images/best_seller/banner1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="assets/cuisine/images/best_seller/banner2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="assets/cuisine/images/best_seller/banner3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="assets/cuisine/images/best_seller/banner4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider -->
+        <!-- FILIPINO CUISINE -->
+                   <!-- plan activities cards -->
+    <div class="container-md">
+        <center><h2 style="font-weight: bold;">POPULAR FAST FOODS</h2></center><hr>
+    </div>
+    <div class="container-md c-container-plan">
+         <!-- nth:child 1 / HAWAIIAN -->
+      <a href="#" class="btn grid-plan">
+          <table>
+              <tbody>
+                  <tr class="grid-inner-content">
+                      <td>
+                          <img src="assets/cuisine/images/best_seller/pic1.jpg" alt="" id="img1" />
+                      </td>
+                      <td class="p-3">
+                          <h5><b>HAWAIIAN PIZZA </b></h5>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </a>
+      <!-- nth:child 2 / PEPPERONI -->
+      <a href="" class="btn grid-plan">
+          <table>
+              <tbody>
+                  <tr class="grid-inner-content">
+                      <td>
+                          <img src="assets/cuisine/images/best_seller/pic2.jpg" alt="" id="img1"/>
+                      </td>
+                      <td class="p-3">
+                        <h5><b>PEPPERONI PIZZA </b></h5>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </a>
+      <!-- nth:child 3 / ALL MEAT  -->
+      <a href="" class="btn grid-plan">
+          <table>
+              <tbody>
+                  <tr class="grid-inner-content">
+                      <td>
+                          <img src="assets/cuisine/images/best_seller/pic3.jpg" alt="" id="img1"/>
+                      </td>
+                      <td class="p-3">
+                        <h5><b>ALL MEAT PIZZA  </b></h5>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </a>
+      <!-- nth:child 4 / BACON-->
+      <a href="" class="btn grid-plan">
+          <table>
+              <tbody>
+                  <tr class="grid-inner-content">
+                      <td>
+                          <img src="assets/cuisine/images/best_seller/pic4.jpg" alt="" id="img1"/>
+                      </td>
+                      <td class="p-3">
+                        <h5><b>BACON PIZZA</b></h5>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </a>
+      <!-- nth:child 5 / ALL BEEF -->
+    <a href="#" class="btn grid-plan">
+        <table>
+            <tbody>
+                <tr class="grid-inner-content">
+                    <td>
+                        <img src="assets/cuisine/images/best_seller/pic5.jpg" alt="" id="img1" />
+                    </td>
+                    <td class="p-3">
+                        <h5><b>ALL BEEF PIZZA</b></h5>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </a>
+
+    <!-- nth:child 6 / LASAGNA -->
+        <a href="#" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic6.jpg" alt="" id="img1" />
+                        </td>
+                        <td class="p-3">
+                            <h5><b>LASAGNA</b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 7 / CRUNCHY CHICKEN -->
+        <a href="" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic7.jpg" alt="" id="img1"/>
+                        </td>
+                        <td class="p-3">
+                        <h5><b>CRUNCHY CHICKEN </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 8 / CARBONARA -->
+        <a href="" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic8.jpg" alt="" id="img1"/>
+                        </td>
+                        <td class="p-3">
+                        <h5><b>CARBONARA </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 9 / PALABOK-->
+        <a href="" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic9.jpg" alt="" id="img1"/>
+                        </td>
+                        <td class="p-3">
+                        <h5><b>PALABOK </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 10 / LECHE FLAN -->
+        <a href="#" class="btn grid-plan">
+        <table>
+            <tbody>
+                <tr class="grid-inner-content">
+                    <td>
+                        <img src="assets/cuisine/images/best_seller/pic10.jpg" alt="" id="img1" />
+                    </td>
+                    <td class="p-3">
+                        <h5><b>LECHE FLAN</b></h5>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </a>
+    <!-- nth:child 11 / HALO-HALO -->
+        <a href="#" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic11.jpg" alt="" id="img1" />
+                        </td>
+                        <td class="p-3">
+                            <h5><b>HALO-HALO </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 12 / PORK BBQ  -->
+        <a href="" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic12.jpg" alt="" id="img1"/>
+                        </td>
+                        <td class="p-3">
+                        <h5><b>PORK BBQ  </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 13 / BANGUS  -->
+        <a href="" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic13.jpg" alt="" id="img1"/>
+                        </td>
+                        <td class="p-3">
+                        <h5><b>BANGUS INIHAW </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 14 / PORK SISIG-->
+        <a href="" class="btn grid-plan">
+            <table>
+                <tbody>
+                    <tr class="grid-inner-content">
+                        <td>
+                            <img src="assets/cuisine/images/best_seller/pic14.jpg" alt="" id="img1"/>
+                        </td>
+                        <td class="p-3">
+                        <h5><b>PORK SISIG </b></h5>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <!-- nth:child 15 / CHICKEN INASAL -->
+        <a href="#" class="btn grid-plan">
+        <table>
+            <tbody>
+                <tr class="grid-inner-content">
+                    <td>
+                        <img src="assets/cuisine/images/best_seller/pic15.jpg" alt="" id="img1" />
+                    </td>
+                    <td class="p-3">
+                        <h5><b>CHICKEN INASAL</b></h5>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </a>
+  </div><br>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container_footer">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>About Us</h4>
+                  <ul>
+                    <li><a href="about.html">About Deli Corner</a></li>
+                    <li><a href="deli.html">Delivery Areas</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Get Help</h4>
+                  <ul>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms and Conditions</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>My Account</h4>
+                  <ul>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="copyright">
+              <p>© 2023, Deli Corner</p>
+          </div>
+          </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="assets/cuisine/cuisine.js"></script>
+
+   <!-- CDN files -->
+
+    <!-- 0. Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 1.Owl carousel Min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items: 1
+        },
+        600:{
+            items: 3
+        },
+        1000:{
+            items: 5
+        }
+    }
+})
+    </script>
+
+</body>
+</html>
