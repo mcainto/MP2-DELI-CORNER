@@ -399,7 +399,7 @@ nav .fly-item
         border-radius: 7px 7px 0 0;
         color: var(--white-color);
         margin-bottom: -2.15em;
-        margin-left: -300px;
+        margin-left: -200px;
         margin-top: 15px;
     }
 .dpt-cat .dpt-head .mini-text
@@ -1223,7 +1223,7 @@ form.search button:hover
                 border: 1px solid var(--border-color);
                 border-top: 0;
                 border-bottom: 0;
-                margin-left: -300px;
+                margin-left: -200px;
             }
         .dpt-menu > ul > li > a
             {

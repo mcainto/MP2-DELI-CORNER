@@ -405,7 +405,7 @@ nav .fly-item
         border-radius: 7px 7px 0 0;
         color: var(--white-color);
         margin-bottom: -2.15em;
-        margin-left: -300px;
+        margin-left: -200px;
         margin-top: -15px;
     }
 .dpt-cat .dpt-head .mini-text
@@ -1176,7 +1176,7 @@ form.search button:hover
         margin-bottom: 35px;
         font-weight: 500;
         position: relative;
-        margin-left: 30px;
+        margin-left: 0px;
       }
       .footer-col h4::before{
         content: '';
@@ -1200,6 +1200,7 @@ form.search button:hover
         color: #a52a25;
         display: block;
         transition: all 0.3s ease;
+        margin-left: -30px;
       }
       .footer-col ul li a:hover{
         color: #ffffff;
@@ -1741,7 +1742,7 @@ form.search button:hover
                 border: 1px solid var(--border-color);
                 border-top: 0;
                 border-bottom: 0;
-                margin-left: -300px;
+                margin-left: -200px;
             }
         .dpt-menu > ul > li > a
             {

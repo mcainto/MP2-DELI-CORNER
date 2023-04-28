@@ -806,6 +806,15 @@ ul{
 
   /* FOOTER */
 @media(max-width: 767px){
+    .container_footer {
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .footer-col .social-links {
+        padding-left: 20px;
+    }
     .footer-col{
       width: 50%;
       padding: 0 15px;
