@@ -1464,6 +1464,9 @@ h1
         font-weight: var(--fw8);
         line-height: 1;
         color:#a52a25;
+        margin-top: -430px;
+        background-color: var(--secondary-dark-color);
+        padding: 15px;
     }
 .container-payment {
     max-width: 90%;
