@@ -1448,8 +1448,9 @@ form.search button:hover
         /* Slider */
         .slider > div > .wrapper
             {
-                width: calc(100% - (300px + 2em));
-                margin-left: auto;
+                width: 1380px;
+             margin-left: 10px;
+             margin-right: 10px;
             }
 
 
