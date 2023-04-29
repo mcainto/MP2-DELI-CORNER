@@ -1079,16 +1079,6 @@ form.search button:hover
             font-size: 15px;
             margin-top: -8px;
         }
-        
-        .list .item button{
-            background-color: #a52a25;
-            color: #fff;
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            font-weight: var(--fw5);
-            font-size: 15px;
-        }
         /* BRAND */
         .brands .item img
         {
@@ -1118,16 +1108,6 @@ form.search button:hover
         .list .item .price{
             margin: 10px;
             font-size: 13px;
-        }
-        
-        .list .item button{
-            background-color: #a52a25;
-            color: #fff;
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            font-weight: var(--fw5);
-            font-size: 15px;
         }
         /* BRAND */
         .brands .item img
@@ -1508,15 +1488,5 @@ form.search button:hover
             margin: 10px;
             font-size: 15px;
             margin-top: -8px;
-        }
-        
-        .list .item button{
-            background-color: #a52a25;
-            color: #fff;
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            font-weight: var(--fw5);
-            font-size: 15px;
         }
     }
