@@ -1131,7 +1131,7 @@ form.search button:hover
         padding-left: 120px;
         padding-right: 0;
       }
-      .row{
+      .footer_row{
         display: flex;
         flex-wrap: wrap;
       }
