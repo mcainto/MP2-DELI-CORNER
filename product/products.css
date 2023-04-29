@@ -1382,7 +1382,6 @@ form.search button:hover
             }
         .dpt-menu > ul > li > a
             {
-                font-weight: var(--fw5);
                 padding: 0 1.5em;
                 border-bottom: 1px solid var(--border-color);
             }
