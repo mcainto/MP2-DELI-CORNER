@@ -1457,7 +1457,7 @@ form.search button:hover
       }
       
 /* Payment Methods */
-h1
+.pay
     {
         font-family: 'Poppins';
         font-size: calc(1.3em + 1vw);
